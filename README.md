@@ -4,7 +4,7 @@ Collection of Linux administration and monitoring scripts.
 
 ## Scripts
 
-- check_disk.sh
+- check_disk.sh, check_disk_colored.sh
 - check_memory.sh
 - check_load.sh
 - check_updates.sh
