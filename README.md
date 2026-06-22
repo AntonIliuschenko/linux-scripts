@@ -28,5 +28,50 @@ Created as part of my Linux and DevOps learning journey.
  chmod +x check_disk.sh
  or colored ver. check_disk_col.sh
 ## To run
- ./check_disk.sh or ./check_disk_col.sh
+ ./check_disk.sh or ./check_disk_colored.sh
+
+# Check Memory Script
+
+A simple Bash script for monitoring memory usage on Linux systems.
+
+## Features
+
+* Displays total memory
+* Displays used memory
+* Displays free memory
+* Calculates memory utilization percentage
+* Compares memory usage against a defined threshold
+* Shows a warning message when memory usage exceeds the threshold
+* Supports colored output for better visibility
+
+## Usage
+
+Make the script executable:
+
+```bash
+chmod +x check_memory.sh
+```
+
+Run the script:
+
+```bash
+./check_memory.sh
+```
+
+## Example Output
+
+```text
+======== MEMORY CHECK ========
+
+Total memory : 62Gi
+Used memory  : 7.7Gi
+Free memory  : 41Gi
+Usage        : 12%
+
+OK, MEMORY USAGE IS 12%
+```
+
+## Purpose
+
+This script was created as part of my Linux and DevOps learning journey. It helps administrators quickly check memory utilization and identify potential resource issues without manually analyzing command output.
 
