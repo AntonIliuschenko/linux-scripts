@@ -3,9 +3,9 @@ echo ""
 echo "============ SYSTEM LOAD CHECK ============"
 echo ""
 UPTIME=$(uptime | awk '{print $1}')
-one_min=$(uptime | awk '{print $8}'| tr -d ",")
-five_min=$(uptime | awk '{print $9}'| tr -d ",")
-fifteen_min=$(uptime | awk '{print $10}'| tr -d ",")
+one_min=$(uptime | awk '{print $10}'| tr -d ",")
+five_min=$(uptime | awk '{print $11}'| tr -d ",")
+fifteen_min=$(uptime | awk '{print $12}'| tr -d ",")
 THRESHOLD=4.0
 echo "Current uptime: $UPTIME"
 echo "--------------------------"
