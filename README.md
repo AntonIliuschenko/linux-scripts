@@ -1,6 +1,6 @@
 # Linux Scripts
 
-Collection of Linux administration and monitoring scripts.
+A collection of Bash scripts for Linux administration, system monitoring and DevOps practice.
 
 ## Scripts
 
