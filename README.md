@@ -75,3 +75,48 @@ OK, MEMORY USAGE IS 12%
 
 This script was created as part of my Linux and DevOps learning journey. It helps administrators quickly check memory utilization and identify potential resource issues without manually analyzing command output.
 
+---
+
+# Check Load Script
+
+## Description
+
+This script monitors the Linux system load average and compares the current 1-minute load average with a predefined threshold.
+
+It displays:
+
+* Current system uptime
+* Load average for the last 1, 5 and 15 minutes
+* System status (OK or WARNING)
+
+## Features
+
+* Displays current uptime
+* Displays 1, 5 and 15-minute load averages
+* Compares the current load average against a threshold
+* Prints a warning when the threshold is exceeded
+* Uses colored output for better readability
+
+## Example Output
+
+```text
+============ UTILIZATION CHECK ============
+
+Current uptime: 15:31:26
+
+--------------------------
+
+Load average:
+1 min: 2.77
+5 min: 2.68
+15 min: 2.47
+
+Status: OK
+```
+
+## Usage
+
+```bash
+chmod +x check_load.sh
+./check_load.sh
+```
