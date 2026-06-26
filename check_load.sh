@@ -1,6 +1,6 @@
 #!/bin/bash
 echo ""
-echo "============ UTILIZATION CHECK ============"
+echo "============ SYSTEM LOAD CHECK ============"
 echo ""
 UPTIME=$(uptime | awk '{print $1}')
 one_min=$(uptime | awk '{print $8}'| tr -d ",")
